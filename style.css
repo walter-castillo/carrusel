@@ -10,7 +10,7 @@
     margin-left: 10px;
     top: 10px;
     color: white;
-    font-size: 16px;
+    /* font-size: 16px; */
     height: 80%;
 }
 
@@ -24,30 +24,30 @@
 .info__descripcion,
 .info__actores,
 .info__genero {
-    margin: 0;
-    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.79);
+    margin: 3px;
+    /* text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.79); */
 }
 
 .info__titulo {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .info__descripcion {
-    font-size: .5rem;
+    font-size: 1.2rem;
 }
 
 .info__actores {
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 .info__genero {
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 .info__btn--ver {
     position: absolute;
     bottom: 0px;
-    padding: 2px 10px;
+    /* padding: 2px 10px; */
     border-radius: 0%;
     background-color: rgb(241, 13, 13);
 }
