@@ -9,14 +9,14 @@
     position: absolute;
     margin-left: 10px;
     top: 10px;
-    color: white;
     font-size: 16px;
+    color: white;
     height: 80%;
 }
 
 .carousel-control-prev,
 .carousel-control-next {
-    /* display: none; */
+    display: none;
 }
 
 .info__titulo,
@@ -24,34 +24,49 @@
 .info__descripcion,
 .info__actores,
 .info__genero {
-    margin: 3px;
-    /* text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.79); */
+    margin: 10px;
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.79);
+    font-weight: 100;
 }
 
 .info__titulo {
-    font-size: 2rem;
+    font-size: 3em;
 }
 
 .info__descripcion {
-    font-size: 1.2rem;
+    font-size: 1.1em;
 }
 
 .info__actores {
-    font-size: 1rem;
+    font-size: 1.2em;
 }
 
 .info__genero {
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 .info__btn--ver {
-    position: absolute;
-    bottom: 0px;
-    /* padding: 2px 10px; */
-    border-radius: 0%;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 4px 10px;
     background-color: rgb(241, 13, 13);
+}
+
+.info__btn--ver:hover {
+    background-color: rgb(245, 44, 44);
+    transform: scale(1.05);
+    transition: all .4s ease;
 }
 
 .prueba {
     display: none;
+}
+
+.info__peli>p>span {
+    font-weight: bold;
+    color: white;
+}
+
+.carousel-item>img {
+    filter: brightness(80%);
 }
