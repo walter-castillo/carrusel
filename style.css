@@ -71,7 +71,7 @@
     filter: brightness(80%);
 }
 
-@media (min-width: 500px) {
+@media (min-width: 350px) {
     body {
         background-color: blue;
     }
