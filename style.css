@@ -30,25 +30,25 @@
 }
 
 .info__titulo {
-    font-size: 3em;
+    font-size: 4em;
 }
 
 .info__descripcion {
-    font-size: 1.1em;
+    font-size: 2em;
 }
 
 .info__actores {
-    font-size: 1.2em;
+    font-size: 1.8em;
 }
 
 .info__genero {
-    font-size: 1em;
+    font-size: 1.8em;
 }
 
 .info__btn--ver {
     margin-top: 15px;
     margin-left: 10px;
-    padding: 6px 10px;
+    padding: 10px 15px;
     background-color: rgb(241, 13, 13);
 }
 
@@ -69,4 +69,18 @@
 
 .carousel-item>img {
     filter: brightness(80%);
+}
+
+@media (min-width: 500px) {
+    body {
+        background-color: blue;
+    }
+    .carousel-item {}
+    .info__peli {
+        font-size: 8px;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
 }
